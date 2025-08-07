@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		42FE38D52E43976A00730013 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE38D22E43976A00730013 /* SwiftConcurrencyApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		42841B9B2E433A88000D53C6 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FE38D22E43976A00730013 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		42841B922E433A88000D53C6 = {
 			isa = PBXGroup;
 			children = (
+				42FE38D22E43976A00730013 /* SwiftConcurrencyApp.swift */,
 				42841B9D2E433A88000D53C6 /* SwiftConcurrency */,
 				42841B9C2E433A88000D53C6 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FE38D52E43976A00730013 /* SwiftConcurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
